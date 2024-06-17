@@ -70,8 +70,8 @@ def callback():
         line_bot_api.reply_message(
             event.reply_token,
             ImageSendMessage(
-                    original_content_url = "/watch?v=Ud7uWiXG-zk&list=PLz6P_4VOaCSIR_lR4trd_gCa1x1hdCFwU&pp=iAQB",
-                    preview_image_url = https://i.ytimg.com/vi/Ud7uWiXG-zk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCg-i_7MZckig8fkpe01WvGmZTalA)
+                    original_content_url = "https://st4.depositphotos.com/13324256/19600/i/950/depositphotos_196008148-stock-photo-top-view-delicious-roasted-steak.jpg?forcejpeg=true",
+                    preview_image_url = https://st4.depositphotos.com/13324256/19600/i/950/depositphotos_196008148-stock-photo-top-view-delicious-roasted-steak.jpg?forcejpeg=true")
 )
 
     return 'OK'
