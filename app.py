@@ -15,7 +15,6 @@
 
 import os
 import sys
-import YouTube
 import phonetic as ph
 
 from argparse import ArgumentParser
