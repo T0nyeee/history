@@ -15,6 +15,7 @@
 
 import os
 import sys
+import phonetic as ph
 from argparse import ArgumentParser
 
 from flask import Flask, request, abort
@@ -67,8 +68,10 @@ def callback():
 
         line_bot_api.reply_message(
             event.reply_token,
-            TextSendMessage(text=event.message.text)
-        )
+            ImageSendMessage(
+                    original_content_url = "/watch?v=Ud7uWiXG-zk&list=PLz6P_4VOaCSIR_lR4trd_gCa1x1hdCFwU&pp=iAQB",
+                    preview_image_url = https://i.ytimg.com/vi/Ud7uWiXG-zk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCg-i_7MZckig8fkpe01WvGmZTalA)
+)
 
     return 'OK'
 
