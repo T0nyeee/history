@@ -15,7 +15,7 @@
 
 import os
 import sys
-import phonetic as ph
+import OMG as ph
 
 from argparse import ArgumentParser
 from pytube import YouTube
