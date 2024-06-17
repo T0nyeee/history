@@ -15,9 +15,11 @@
 
 import os
 import sys
+import YouTube
 import phonetic as ph
-from argparse import ArgumentParser
 
+from argparse import ArgumentParser
+from pytube import YouTube
 from flask import Flask, request, abort
 from linebot import (
     LineBotApi, WebhookParser
